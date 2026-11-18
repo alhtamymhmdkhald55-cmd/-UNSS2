@@ -16,7 +16,7 @@ jobs:
           distribution: temurin
           java-version: 17
       - name: Unpack project
-        run: unzip -q app.zip -d proj
+        run: unzip -q anis-unss-prepared.zip -d proj
       - name: Install dependencies
         working-directory: proj
         run: npm install
